@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+hr{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+
+}
+
+.cartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: #fff;
+    border-radius: 25px;
+    margin: 20px;
+    width: 330px;
+    height: 350px;
+}
+
+.cartao .informacoes-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.cartao .informacoes-perfil img{
+    border-radius: 50%;
+    margin-top: 20px;
+
+}
+
+.cartao .perfil-numeros{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.perfil-numeros .info .contador, 
+.cartao .informacoes-perfil p{
+    font-weight: 700;
+}
+
+.cartao .informacoes-perfil .idade,
+.cartao .informacoes-perfil .cidade, 
+.perfil-numeros .info .contador-tipo{
+    color: var(--text-color);
+}
